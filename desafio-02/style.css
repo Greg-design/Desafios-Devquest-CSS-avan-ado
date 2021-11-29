@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container .imagem1{
+    background-image: url('./images/6.jpg');
+}
+
+.container .imagem2{
+    background-image: url('./images/3.jpg');
+}
+.container .imagem3{
+    background-image: url('./images/4.jpg');
+}
+.container .imagem4{
+    background-image: url('./images/5.jpg');
+}
+
+.container .bg-imagem{
+    width: 236px;
+    height: 332px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .bg-imagem h2,
+.container .bg-imagem p{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+.container .bg-imagem h2{
+    bottom: 10px;
+}
